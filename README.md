@@ -1,6 +1,11 @@
 # dev-auth-middleware-jwt
 
-This library will help us to generate access & refresh token also able to validate"
+[![npm version](https://badge.fury.io/js/dev-auth-middleware-jwt.svg)](https://badge.fury.io/js/dev-auth-middleware-jwt)
+[![GitHub license](https://img.shields.io/github/license/devlopersabbir/dev-auth-middleware-jwt)](https://github.com/devlopersabbir/dev-auth-middleware-jwt/blob/main/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/devlopersabbir/dev-auth-middleware-jwt)](https://github.com/devlopersabbir/dev-auth-middleware-jwt/issues)
+[![GitHub stars](https://img.shields.io/github/stars/devlopersabbir/dev-auth-middleware-jwt)](https://github.com/devlopersabbir/dev-auth-middleware-jwt/stargazers)
+
+This library will help us to generate access & refresh token also able to validate
 
 ## INSTALLATION
 
@@ -14,7 +19,24 @@ or if you are use `yarn` then just run this code
 $ yarn add dev-auth-middleware-jwt --save
 ```
 
+## REQUIRED TASK
+
+- We have to create a `.env` file into the root project directory for store our all of `environment` variable.
+- Create all variable following the down below code example.
+
+```console
+ACCESS_TOKEN_SECRET=key //use your secret key
+ACCESS_TOKEN_EXPIRES_IN=1d //modify as you need eg: 60s, 1m, 1h, 7d
+
+REFRESH_TOKEN_SECRET=key //use your secret key
+REFRESH_TOKEN_EXPIRES_IN=1d //modify as you need eg: 60s, 1m, 1h, 7d
+```
+
+- That is required
+
 ## USAGES
+
+If you want you try with this template. I just try to explement this package features and show...
 
 ```ts
 import express, { Request, Response } from "express";

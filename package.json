@@ -1,6 +1,6 @@
 {
   "name": "dev-auth-middleware-jwt",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "description": "This library will help us to generate access & refresh token also able to validate",

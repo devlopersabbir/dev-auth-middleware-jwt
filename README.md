@@ -2,17 +2,19 @@
 
 This library will help us to generate access & refresh token also able to validate"
 
-## Installation
+## INSTALLATION
 
-`console
+```console
 $ npm i dev-auth-middleware-jwt --save
-`
-or if you are use `yarn` then just run this code
-`console
-$ yarn add dev-auth-middleware-jwt --save
-`
+```
 
-## Use
+or if you are use `yarn` then just run this code
+
+```console
+$ yarn add dev-auth-middleware-jwt --save
+```
+
+## USAGES
 
 ```ts
 import express, { Request, Response } from "express";

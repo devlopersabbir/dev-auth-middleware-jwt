@@ -1,0 +1,47 @@
+{
+  "name": "dev-auth-middleware-jwt",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "description": "This library will help us to generate access & refresh token also able to validate",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devlopersabbir/dev-auth-middleware-jwt.git"
+  },
+  "homepage": "https://github.com/devlopersabbir/dev-auth-middleware-jwt#readme",
+  "bugs": {
+    "url": "https://github.com/devlopersabbir/dev-auth-middleware-jwt/issues",
+    "email": "devlopersabbir@gmail.com"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "author": "devlopersabbir <devlopersabbir@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "dev-auth-middleware-jwt",
+    "dev-authmiddleware",
+    "jwt-middleware",
+    "authMiddleware",
+    "jwtMiddlewareWithRefreshToken",
+    "auth-middleware",
+    "dev-auth-jwt-middleware"
+  ],
+  "dependencies": {
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/jsonwebtoken": "^9.0.1",
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon src/index.ts",
+    "prepare": "npm run build"
+  }
+}

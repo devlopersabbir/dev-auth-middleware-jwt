@@ -37,15 +37,22 @@ REFRESH_TOKEN_EXPIRES_IN=1d //modify as you need eg: 60s, 1m, 1h, 7d
 
 ## USAGES
 
+Firstly, just import this package using
+
+```ts
+import { JWT, Validate } from "dev-auth-middleware-jwt";
+```
+
+Now it's ready to use.
+
 If you want you try with this template. I just try to explement this package features and show...
 
 ```ts
 import express, { Request, Response } from "express";
 import dotenv from "dotenv";
-import Validate from "./middlewares/auth";
-import JWT from "./service/jwtService";
 import { JwtPayload } from "jsonwebtoken";
 dotenv.config();
+import { JWT, Validate } from "dev-auth-middleware-jwt";
 
 declare module "express" {
   interface Request {
@@ -113,3 +120,14 @@ app.post(
 const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => console.log(`🚀 Server is running at ${PORT}`));
 ```
+
+#### Author
+
+This package created by [Sabbir Hossain Shuvo](https://www.showwcase.com/devlopersabbir). And the GitHub profile is [https://github.com/devlopersabbir](https://github.com/devlopersabbir).
+
+#### LICENSE
+
+MIT
+
+For support just [Buy Me A Coffee](https://www.buymeacoffee.com/devlopersabbir)
+[https://www.buymeacoffee.com/devlopersabbir](https://www.buymeacoffee.com/devlopersabbir)

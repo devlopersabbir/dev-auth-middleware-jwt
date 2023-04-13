@@ -1,12 +1,23 @@
-# dev-auth-middleware-jwt
 
-[![npm version](https://badge.fury.io/js/dev-auth-middleware-jwt.svg)](https://badge.fury.io/js/dev-auth-middleware-jwt)
-[![GitHub license](https://img.shields.io/github/license/devlopersabbir/dev-auth-middleware-jwt)](https://github.com/devlopersabbir/dev-auth-middleware-jwt/blob/main/LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/devlopersabbir/dev-auth-middleware-jwt)](https://github.com/devlopersabbir/dev-auth-middleware-jwt/issues)
-[![GitHub stars](https://img.shields.io/github/stars/devlopersabbir/dev-auth-middleware-jwt)](https://github.com/devlopersabbir/dev-auth-middleware-jwt/stargazers)
-[![npm downloads](https://img.shields.io/npm/dm/dev-auth-middleware-jwt.svg)](https://www.npmjs.com/package/dev-auth-middleware-jwt)
+███████╗██╗  ██╗███████╗██╗     ██╗      ██████╗ ██████╗ ███╗   ███╗███████╗
+  ██╔════╝██║  ██║██╔════╝██║     ██║     ██╔═══██╗██╔══██╗████╗ ████║██╔════╝
+  █████╗  ███████║█████╗  ██║     ██║     ██║   ██║██████╔╝██╔████╔██║█████╗  
+  ██╔══╝  ██╔══██║██╔══╝  ██║     ██║     ██║   ██║██╔══██╗██║╚██╔╝██║██╔══╝  
+  ██║     ██║  ██║███████╗███████╗███████╗╚██████╔╝██║  ██║██║ ╚═╝ ██║███████╗
+  ╚═╝     ╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝
 
-This library will help us to generate access & refresh token also able to validate
+  # dev-auth-middleware-jwt
+A powerful JWT authentication middleware for Node.js to create accesstoken, refreshtoken ans also able to validate both token.
+
+  This middleware provides a simple and secure way to authenticate HTTP requests using JSON Web Tokens (JWTs). It can be easily integrated into any Node.js application and supports a variety of authentication strategies, including bearer tokens and cookie-based authentication. Finaly, this library will help us to generate access & refresh token also able to validate
+For more information on how to use the middleware, please refer to the [documentation](https://github.com/devlopersabbir/dev-auth-middleware-jwt#readme).
+
+  [![npm](https://img.shields.io/npm/v/dev-auth-middleware-jwt?style=flat-square&logo=npm)](https://www.npmjs.com/package/dev-auth-middleware-jwt)
+  [![npm](https://img.shields.io/npm/l/dev-auth-middleware-jwt?style=flat-square&logo=npm)](https://github.com/devlopersabbir/dev-auth-middleware-jwt/blob/main/LICENSE)
+  [![GitHub issues](https://img.shields.io/github/issues/devlopersabbir/dev-auth-middleware-jwt?style=flat-square&logo=github)](https://github.com/devlopersabbir/dev-auth-middleware-jwt/issues)
+  [![GitHub stars](https://img.shields.io/github/stars/devlopersabbir/dev-auth-middleware-jwt?style=flat-square&logo=github)](https://github.com/devlopersabbir/dev-auth-middleware-jwt/stargazers)
+  [![npm](https://img.shields.io/npm/dt/dev-auth-middleware-jwt?style=flat-square&logo=npm)](https://www.npmjs.com/package/dev-auth-middleware-jwt)
+
 
 ## INSTALLATION
 

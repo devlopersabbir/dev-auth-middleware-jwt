@@ -4,6 +4,7 @@
 [![GitHub license](https://img.shields.io/github/license/devlopersabbir/dev-auth-middleware-jwt)](https://github.com/devlopersabbir/dev-auth-middleware-jwt/blob/main/LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/devlopersabbir/dev-auth-middleware-jwt)](https://github.com/devlopersabbir/dev-auth-middleware-jwt/issues)
 [![GitHub stars](https://img.shields.io/github/stars/devlopersabbir/dev-auth-middleware-jwt)](https://github.com/devlopersabbir/dev-auth-middleware-jwt/stargazers)
+[![npm downloads](https://img.shields.io/npm/dm/dev-auth-middleware-jwt.svg)](https://www.npmjs.com/package/dev-auth-middleware-jwt)
 
 This library will help us to generate access & refresh token also able to validate
 

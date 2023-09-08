@@ -6,19 +6,10 @@
   [![npm](https://img.shields.io/npm/dt/dev-auth-middleware-jwt?style=flat-square&logo=npm)](https://www.npmjs.com/package/dev-auth-middleware-jwt)
 
 
+# dev-auth-middleware-jwt
+A powerful JWT authentication middleware for Node.js to create accesstoken, refreshtoken and also able to validate both tokens.
 
-
-███████╗██╗  ██╗███████╗██╗     ██╗      ██████╗ ██████╗ ███╗   ███╗███████╗
-  ██╔════╝██║  ██║██╔════╝██║     ██║     ██╔═══██╗██╔══██╗████╗ ████║██╔════╝
-  █████╗  ███████║█████╗  ██║     ██║     ██║   ██║██████╔╝██╔████╔██║█████╗  
-  ██╔══╝  ██╔══██║██╔══╝  ██║     ██║     ██║   ██║██╔══██╗██║╚██╔╝██║██╔══╝  
-  ██║     ██║  ██║███████╗███████╗███████╗╚██████╔╝██║  ██║██║ ╚═╝ ██║███████╗
-  ╚═╝     ╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝
-
-  # dev-auth-middleware-jwt
-A powerful JWT authentication middleware for Node.js to create accesstoken, refreshtoken ans also able to validate both token.
-
-  This middleware provides a simple and secure way to authenticate HTTP requests using JSON Web Tokens (JWTs). It can be easily integrated into any Node.js application and supports a variety of authentication strategies, including bearer tokens and cookie-based authentication. Finaly, this library will help us to generate access & refresh token also able to validate
+  This middleware provides a simple and secure way to authenticate HTTP requests using JSON Web Tokens (JWTs). It can be easily integrated into any Node.js application and supports a variety of authentication strategies, including bearer tokens and cookie-based authentication. Finally, this library will help us to generate access & refresh tokens also able to validate
 For more information on how to use the middleware, please refer to the [documentation](https://github.com/devlopersabbir/dev-auth-middleware-jwt#readme).
 
 ## INSTALLATION

@@ -26,8 +26,8 @@ $ yarn add dev-auth-middleware-jwt --save
 
 ## REQUIRED TASK
 
-- We have to create a `.env` file into the root project directory for store our all of `environment` variable.
-- Create all variable following the down below code example.
+- We have to create a `.env` file in the root project directory to store our all of `environment` variables.
+- Create all variables following the down below code example.
 
 ```console
 ACCESS_TOKEN_SECRET=key //use your secret key
@@ -49,7 +49,7 @@ import { JWT, Validate } from "dev-auth-middleware-jwt";
 
 Now it's ready to use.
 
-If you want you try with this template. I just try to explement this package features and show...
+If you want you try this template. I just try to explement this package features and show...
 
 ```ts
 import express, { Request, Response } from "express";
@@ -127,7 +127,8 @@ app.listen(PORT, () => console.log(`🚀 Server is running at ${PORT}`));
 
 #### Author
 
-This package created by [Sabbir Hossain Shuvo](https://www.showwcase.com/devlopersabbir). And the GitHub profile is [https://github.com/devlopersabbir](https://github.com/devlopersabbir).
+This package was created by [Sabbir Hossain Shuvo](https://www.showwcase.com/devlopersabbir). And the GitHub profile is [https://github.com/devlopersabbir](https://github.com/devlopersabbir).
+
 
 #### LICENSE
 
@@ -135,3 +136,11 @@ MIT
 
 For support just [Buy Me A Coffee](https://www.buymeacoffee.com/devlopersabbir)
 [https://www.buymeacoffee.com/devlopersabbir](https://www.buymeacoffee.com/devlopersabbir)
+
+## Contributing
+If you would like to contribute to this project, please follow these steps:
+1. Fork this repository.
+2. Clone your forked repository:
+3. For your changes:
+4. Make your changes, commit them, and push them to your forked repository:
+5. Create a pull request on this repository.
